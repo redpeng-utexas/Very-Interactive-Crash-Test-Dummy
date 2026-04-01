@@ -158,7 +158,7 @@ function draw() {
 
         
         // Detects if the hand is pinching and changes the cursor accordingly
-        if(pinch < 65){image(handPinch, centerX * vwidth, centerY * vheight - 20, 50, 50); if(detectGrab()){grab = true}} else {image(handPinchOpen, centerX * vwidth, centerY * vheight, 50, 50); grab = false;}
+        if(pinch < 40){image(handPinch, centerX * vwidth, centerY * vheight - 20, 50, 50); if(detectGrab()){grab = true}} else {image(handPinchOpen, centerX * vwidth, centerY * vheight, 50, 50); grab = false;}
         
     }
 }
